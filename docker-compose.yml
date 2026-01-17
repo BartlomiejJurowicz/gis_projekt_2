@@ -1,0 +1,10 @@
+services:
+  gis_app:
+    build: .
+    container_name: gdal_streamlit_app
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
