@@ -36,6 +36,7 @@ Aby przeprowadzić analizę, przygotuj:
 1.  **Dane wektorowe**: Plik \`.geojson\` z granicami działek/obszarów (np. z [geojson.io](https://geojson.io/)).
 2.  **Dane rastrowe**: Dwa pasma z Sentinel-2 (B04 - Red oraz B08 - NIR) pobrane z [Copernicus Browser](https://browser.dataspace.copernicus.eu/).
 
+![Widok aplikacji](readme_img/img_1.png)
 ---
 
 ## 📊 Metodologia obliczeń
@@ -44,3 +45,5 @@ Aplikacja oblicza znormalizowany różnicowy wskaźnik wegetacji zgodnie ze wzor
 $$NDVI = \frac{NIR - RED}{NIR + RED}$$
 Wynikiem działania programu jest interaktywna mapa z nałożoną warstwą NDVI oraz tabela zawierająca średnie wartości wskaźnika dla każdego zdefiniowanego obszaru wektorowego.
 
+![Widok aplikacji](readme_img/img_2.png)
+![Widok aplikacji](readme_img/img_3.png)
