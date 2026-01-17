@@ -28,6 +28,8 @@ st.info("""
    - Pobierz oddzielnie pasmo **B04** (Red) oraz pasmo **B08** (NIR).
 3. **Wgraj Pliki:** Użyj poniższych pól, aby załadować przygotowane dane.
 4. **Analiza:** Kliknij przycisk 'Uruchom analizę', aby obliczyć NDVI i wyświetlić wyniki.
+
+Przykładowe dane znjadziesz w w app/data/
 """)
 
 # 2. SEKCJA WGrywania plików
